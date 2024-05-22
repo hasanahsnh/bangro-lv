@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Scaffold Bootstrap Template - Index</title>
+  <title>Bangro</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,7 +43,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Bangro</a></h1>
+        <h1><a href="#">Bangro</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -51,15 +51,17 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonial</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="#team">Layanan</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Bahan</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Ornamen</a></li>
+          <li><a class="nav-link scrollto" href="#">Portofolio</a></li>
+          <li><a class="nav-link scrollto" href="#galeri">Galeri</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Testimoni</a></li>
+          <div class="button">Sign in</div>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
         
-        <div class="button">Sign in</div>
-
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -75,7 +77,7 @@
           <div>
             <h1>We design digital products that help grow businesses</h1>
             <h2>We are team of talented designers making websites with Bootstrap</h2>
-            <a href="#" class="btn-get-started scrollto">Hubungi kami</a>
+            <a href="https://api.whatsapp.com/send/?phone=6289696210706&text=Hi%21%2C%20Saya%20ingin%20konsultasi%20produk" class="btn-get-started scrollto">Hubungi kami</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">

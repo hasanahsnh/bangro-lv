@@ -328,6 +328,11 @@ h6 {
   transition: 0.3s;
 }
 
+.navbar-mobile .button {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
