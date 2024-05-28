@@ -1,11 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrnamenController;
 
 Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/admin/home', function () {
-    return view('pages.test');
+Route::get('/dashboard', function () {
+    return view('pages.admin-dashboard');
+})-> name('dashboard');
+
+Route::controller(OrnamenController::class)->prefix('ornamen')->group(function() {
+    Route::get('', 'index')->name('ornamen');
 });
+
