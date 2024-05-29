@@ -1,4 +1,4 @@
-Documentation:
+do;before
 1. git clone https://github.com/hasanahsnh/bangro-lv.git 
 2. cp .env.example .env
 3. php artisan migrate
