@@ -27,6 +27,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- For Login CSS File -->
+
   <!-- =======================================================
   * Template Name: Scaffold
   * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
@@ -43,9 +45,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="#">Bangro</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="#">KALIGRAFI</a></h1>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -58,8 +58,9 @@
           <li><a class="nav-link scrollto" href="#">Portofolio</a></li>
           <li><a class="nav-link scrollto" href="#galeri">Galeri</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Testimoni</a></li>
-          <div class="button">Sign in</div>
-          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+          <div class="button">
+            Sign in
+          </div>
         </ul>
         
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,7 +76,7 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1>We design digital products that help grow businesses</h1>
+            <h1>Kalighrafi</h1>
             <h2>We are team of talented designers making websites with Bootstrap</h2>
             <a href="https://api.whatsapp.com/send/?phone=6289696210706&text=Hi%21%2C%20Saya%20ingin%20konsultasi%20produk" class="btn-get-started scrollto">Hubungi kami</a>
           </div>
@@ -178,7 +179,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
+  <!-- From Login JS File -->
+  
+  @include('auth.login-register-modal')
 </body>
 
 </html>

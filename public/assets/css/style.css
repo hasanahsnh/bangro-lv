@@ -183,7 +183,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #009cea;
+  color: #083225;
 }
 
 .navbar .dropdown ul {
@@ -255,7 +255,7 @@ h6 {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #135D66;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -267,9 +267,12 @@ h6 {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #FFC700;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  color: black;
 }
+
+
 
 /**
 * Mobile Navigation 
@@ -425,11 +428,12 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #135D66;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #FFC700;
+  color: black;
 }
 
 #hero .hero-img {
